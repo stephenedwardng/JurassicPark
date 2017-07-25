@@ -34,6 +34,7 @@ Enclosure.prototype = {
     return population;
   }
 
+
 }
 
 module.exports = Enclosure;

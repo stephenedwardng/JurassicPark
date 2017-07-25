@@ -33,7 +33,6 @@ describe("Enclosure", function(){
     assert.strictEqual(enclosure.predictPopulation(1, 1), 12);
   });
 
-// Assuming dinosaur reproductive age is 5 years
   it('predict population after 2 years with 1 of each type', function(){
     assert.strictEqual(enclosure.predictPopulation(2, 1), 21);
   });
