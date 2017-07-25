@@ -20,4 +20,9 @@ describe("Enclosure", function(){
     assert.strictEqual(enclosure.dinosaurs.length, 4);
   });
 
+  it('cull dinosaur type', function(){
+    enclosure.cullType("pterodactyl");
+    assert.strictEqual(enclosure.dinosaurs.length, 2);
+  });
+
 });
